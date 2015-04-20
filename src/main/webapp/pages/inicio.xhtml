@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<ui:composition template="/template/common/templateLayout.xhtml">
+	<ui:define name="sidebar">
+
+		<ui:include src="side_inicio.xhtml" />
+	</ui:define>
+
+	<ui:define name="content">
+
+		<div align="center">
+			<table style="text-align: center;">
+				<tr>
+
+					<td><h:graphicImage library="images" name="lema_olimpico.jpg"
+							style="width: 60%; height: 60%" /></td>
+				</tr>
+			</table>
+
+			<h3>"Mais rápido, mais alto, mais forte"</h3>
+
+		</div>
+		<p>O lema olímpico "Citius, Altius, Fortius" foi criado por um
+			monge francês, amigo de Barão de Coubertin em 1890, chamado Didon.</p>
+		<p>Traduzido para português significa: mais rápido, mais alto,
+			mais forte. O que remete às modalidades praticadas nos Jogos
+			Olímpicos.</p>
+		<div align="center">
+			<h:graphicImage library="images" name="a11.jpg"
+				style="width: 150px; height: 250px" />
+			<h:graphicImage library="images" name="a12.jpg"
+				style="width: 150px; height: 250px" />
+			<h:graphicImage library="images" name="a9.jpg"
+				style="width: 150px; height: 250px" />
+			<h:graphicImage library="images" name="a4.jpg"
+				style="width: 150px; height: 250px" />
+			<h:graphicImage library="images" name="a5.jpg"
+				style="width: 150px; height: 250px" />
+			<h:graphicImage library="images" name="a6.jpg"
+				style="width: 150px; height: 250px" />
+		</div>
+	</ui:define>
+
+
+
+</ui:composition>
+</html>

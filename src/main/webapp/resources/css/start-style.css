@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url("../resources/images/Fundo.jpg");
+	
+	text-align: center;
+	padding: 50px;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<h:outputStylesheet name="start-style.css" library="css" />
+</h:head>
+
+<h:body>
+	<h:outputText value="#{login.clear}" />
+	<div id="page1">
+		<h:graphicImage library="images" name="imagemjogos.gif"
+			style="width : 320px; height : 136px; vertical-align : middle;" />
+		<h3>Bem-vindo ao sítio das Modalidades Olímpicas</h3>
+		<h3>Insira o seu nome para entrar.</h3>
+
+
+		<h:form id="form1">
+			<h:inputText id="username" value="#{login.name}" required="true"
+				requiredMessage="Erro: Deve inserir nome." maxlength="25" />
+			<p></p>
+			<h:commandButton id="submeter" value="Submeter" action="inicio" />
+			<h:commandButton id="apagar" value="Apagar" type="reset" />
+		</h:form>
+
+		<div class="messagecolor">
+			<h:messages showSummary="true" showDetail="false"
+				errorStyle="color: #d20005" infoStyle="color: blue" />
+		</div>
+
+	</div>
+
+</h:body>
+</html>
+

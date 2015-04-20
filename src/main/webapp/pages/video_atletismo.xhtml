@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:body>
+	<ui:composition template="/template/common/templateLayout.xhtml">
+		<ui:define name="content">
+			<h2 align="center">Atletismo</h2>
+			<div align="center">
+				<video controls="controls"> <source
+					src="../resources/video/atletismo1.mp4" type="video/mp4" /> </video>
+
+				<p></p>
+				<iframe width="560" height="315"
+					src="//www.youtube.com/embed/2O7K-8G2nwU?cc_lang_pref=pt&amp;cc_load_policy=1"
+					frameborder="0"></iframe>
+				<br />
+
+			</div>
+
+		</ui:define>
+
+		<ui:define name="sidebar">
+			<ui:include src="side_atletismo.xhtml" />
+		</ui:define>
+
+	</ui:composition>
+
+</h:body>
+
+
+
+</html>
+
